@@ -1,0 +1,22 @@
+@use "../../../assets/styles/mixins.scss" as *;
+
+.navbar 
+{
+    background-color: #000;
+    padding: 30px;
+
+    &_list
+    {
+        @include flex-center;
+        gap: 1rem;
+    }
+
+    &_item
+    {
+        list-style: none;
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        font-size: 20px;
+    }
+}
