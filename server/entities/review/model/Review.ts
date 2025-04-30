@@ -1,6 +1,6 @@
 import { DataTypes } from 'sequelize';
-import { sequelize } from '../sequelize';
-import { User } from './User';
+import { User } from '../../user/model/User';
+import { sequelize } from '../../../shared/db/sequalize';
 
 export const Review = sequelize.define('Review', {
   id: {
